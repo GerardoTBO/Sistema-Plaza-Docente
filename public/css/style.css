@@ -1,0 +1,248 @@
+/* Mis Estilos */
+.MuiListItemIcon-root {
+    color: white !important;
+}
+
+.MuiFormLabel-root.Mui-focused { /* color Label de postProduct */
+    color: #9bf1ff !important;
+}
+.MuiStepIcon-root.MuiStepIcon-completed { /* color icono Stepper en check de postProduct */
+    color: #53e3fb !important;
+}
+.MuiInput-underline::after { /* border label color de postProduct */
+    border-bottom: 2px solid #9bf1ff !important;
+    color: white !important;
+}
+.MuiInput-underline:before { 
+    border-bottom: 2px solid rgb(148,148,148) !important;
+}
+.MuiInput-underline:before:hover {
+    border-bottom: 2px solid #9bf1ff !important;
+}
+.MuiGrid-item {
+    padding: 8px !important;
+}
+
+.MuiInputBase-root {
+    color: white !important;
+    opacity: 0.9 !important;
+    margin-top: 15px !important;
+}
+
+.dontMove {
+    position: inherit !important;
+}
+
+.lesgo {
+    padding: 0 5rem !important;
+    margin: 2rem !important;
+    color: black !important;
+}
+
+.noActionsColor {
+    color: rgb(40, 100, 187) !important;
+}
+
+.noActionsColor2 {
+    color: rgb(36, 41, 67) !important;
+}
+
+.cambiarBackground { /* evaluador/inicio.js */
+    background-color: transparent !important;
+    box-shadow: 0px 0px 0px 0px rgb(0,0,0, .5) !important;
+}
+
+.modifyButton1 {
+    background-color: rgb(40, 100, 187,.6) !important;
+    border-radius: 50px !important;
+    box-shadow: 0px 0px 0px white !important;
+}
+
+.modifyButton2 {
+    background-color: rgb(120, 200, 217,.4) !important;
+    border-radius: 50px !important;
+    box-shadow: 0px 0px 0px white !important;
+}
+
+.modifyButton3 { /* archivo profesor/inicio.js */
+    background-color: rgb(40, 100, 187,.6) !important;
+    width: 200px !important;
+    color: white !important;
+    border-radius: 50px !important;
+    box-shadow: 0px 3px 6px 1px rgb(0,0,0,.3) !important;
+}
+
+.modifyButton4 {
+    background-color: rgb(255, 255, 255,.1) !important;
+    border-radius: 50px !important;
+    box-shadow: 0px 0px 0px white !important;
+}
+
+.modifyButton5 {
+    color: white !important;
+    padding: 5px !important;
+    font-size: 10px !important;
+    background-color: rgb(40, 100, 187) !important;
+    border-radius: 50px !important;
+    width: 120px !important;
+    box-shadow: 0px 0px 0px white !important;
+    margin-left: 20px !important;
+}
+
+.modifyButton5:hover {
+    color: white !important;
+}
+
+.modifyButton6 {
+    background-color: rgb(40, 100, 187) !important;
+    border-radius: 50px !important;
+    box-shadow: 0px 0px 0px white !important;
+    font-size: 10px !important;
+}
+
+.modifyButton7 {
+    background-color: rgb(40, 100, 187) !important;
+    border-radius: 50px !important;
+    box-shadow: 0px 0px 0px white !important;
+}
+
+.modifyButton8 {
+    background-color: rgb(65, 125, 222, .3) !important;
+    border-radius: 50px !important;
+    box-shadow: 0px 0px 0px white !important;
+}
+
+.padd5 {
+    padding: 10px !important;
+}
+
+.moveCenter {
+    padding: 0 3rem !important;
+    margin: 2rem !important;
+}
+
+.marginLeft {
+    margin-left: 20px !important;
+}
+
+.marginTop-2p {
+    margin-top: 3px !important;
+    color: rgb(40, 100, 187, .5) !important;
+}
+
+.sizeCustom {
+    height: 500px !important;
+}
+
+.subirChild {
+    margin-bottom: -10px !important;
+}
+
+.espacioBottom {
+    margin-bottom: 15px !important;
+}
+
+.MuiDivider-root {
+    background-color: rgb(36, 41, 67) !important;
+    margin-right: 23px !important;
+}
+
+.MuiInputLabel-filled {
+    color: rgb(0,0,0,.7) !important;
+}
+
+.MuiInputLabel-filled::after {
+    color: red !important;
+}
+
+.MuiFilledInput-root {
+    background-color: rgb(100,100,100,.1) !important;
+    color: rgb(0,0,0,.7) !important;
+}
+
+.noLink {
+    -moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out !important;
+	-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out !important;
+	-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out !important;
+	transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out !important;
+	border-bottom: dotted 1px !important;
+	color: inherit !important;
+	text-decoration: none !important;
+    color: inherit !important;
+	border-bottom: 0 !important;
+    border: 0 !important;
+	display: block !important;
+	font-size: 0.7em !important;
+	height: inherit !important;
+	line-height: inherit !important;
+	padding: 0 0.75em !important;
+	position: relative !important;
+}
+
+.noLink:hover {
+    border-bottom-color: transparent !important;
+    color: rgb(40, 100, 187) !important;
+}
+
+.noLink:active {
+    color: rgb(40, 100, 187,.6) !important;
+}
+
+.noLink:last-child {
+    padding-right: 1.5em !important;
+}
+
+.noLink[href="#menu"] {
+    padding-right: 3.325em !important;
+}
+
+.MuiFormLabel-root.Mui-focused {
+    color: rgb(40, 100, 187,.8) !important;
+}
+
+.contact-form {
+    background-color: rgb(40, 100, 187,.8) !important;
+    margin-right: 20px !important;
+    padding: 0 3rem !important;
+    color: black !important
+}
+
+.fixPadding {
+    padding: 20px !important;
+}
+
+.fixPadding:hover {
+    background-color: rgb(170,170,170) !important;
+}
+
+@media screen and (max-width: 1090px) {
+
+    .sizeCustom {
+        height: 380px !important;
+    }
+
+    .lesgo {
+        padding: 0 3rem !important;
+        margin: 1rem !important;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .sizeCustom {
+        height: 270px !important;
+    }
+    .lesgo {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .sizeCustom {
+        height: 220px !important;
+    }
+    .MuiGrid-spacing-xs-2 {
+        width: auto !important;
+    }
+}
